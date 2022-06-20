@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author lzulu
+ * @author ST10218375_MATHALISE_VUSANI
  */
 public class LoginTest {
     
@@ -42,7 +42,7 @@ public class LoginTest {
     @Test
     public void testCheckUserName() {
         System.out.println("checkUserName");
-        String userName = "kyl_1";
+        String userName = "Vus_1";
         Login instance = new Login();
         boolean expResult = true;
         boolean result = instance.checkUserName(userName);
@@ -57,7 +57,7 @@ public class LoginTest {
     @Test
     public void testCheckPassWordComplexity() {
         System.out.println("checkPassWordComplexity");
-        String password = "Pass@1234";
+        String password = "Vusi@1234";
         Login instance = new Login();
         boolean expResult = true;
         boolean result = instance.checkPassWordComplexity(password);
@@ -72,8 +72,8 @@ public class LoginTest {
     @Test
     public void testRegisterUser() {
         System.out.println("registerUser");
-        String username = "Li_";
-        String password = "Pass@123";
+        String username = "kg_";
+        String password = "Vusi@123";
         Login instance = new Login();
         String expResult = "The two above conditions have been met and the user has been registered successfully.";
         String result = instance.registerUser(username, password);
@@ -88,10 +88,10 @@ public class LoginTest {
     @Test
     public void testLoginUser() {
         System.out.println("loginUser");
-        String username = "Lih_";
-        String password = "Pass@123";
+        String username = "KGM_";
+        String password = "Vusi@123";
         String loginUsername = "Lih_";
-        String loginPassword = "Pass@123";
+        String loginPassword = "Vusi@123";
         Login instance = new Login();
         boolean expResult = true;
         boolean result = instance.loginUser(username, password, loginUsername, loginPassword);
@@ -106,12 +106,12 @@ public class LoginTest {
     @Test
     public void testReturnLoginStatus() {
         System.out.println("returnLoginStatus");
-        String first = "Lihle";
-        String last = "Zulu";
-        String username = "Li_";
-        String password = "Pass@123";
-        String loginUsername = "Li_";
-        String loginPassword = "Pass@123";
+        String first = "Vusani";
+        String last = "Hope";
+        String username = "KGM_";
+        String password = "Vusi@123";
+        String loginUsername = "KGM_";
+        String loginPassword = "Vusi@123";
         Login instance = new Login();
         String expResult = "Welcome "+first+" "+last+" it is great to see you again";
         String result = instance.returnLoginStatus(first, last, username, password, loginUsername, loginPassword);
