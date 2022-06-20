@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author hopev
+ * ST10218375_MATHALISE_VUSANI
  */
 public class Assignment {
 
