@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author lzulu
+ * ST10218375_MATHALISE_VUSANI
  */
 public class TaskTest {
     
